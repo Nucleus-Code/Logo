@@ -1,0 +1,30 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Schwarzer Hintergrund -->
+  <rect width="200" height="200" fill="#000"/>
+  
+  <!-- Außenkreis für gestalterische Balance -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Zentraler Kern (Nucleus) -->
+  <circle cx="100" cy="100" r="10" fill="#fff"/>
+  
+  <!-- Orbit 1: Horizontale Ellipse -->
+  <ellipse cx="100" cy="100" rx="60" ry="30" fill="none" stroke="#fff" stroke-width="2"/>
+  <!-- Elektron auf Orbit 1 -->
+  <circle cx="160" cy="100" r="4" fill="#fff"/>
+  
+  <!-- Orbit 2: Vertikale Ellipse -->
+  <ellipse cx="100" cy="100" rx="30" ry="60" fill="none" stroke="#fff" stroke-width="2"/>
+  <!-- Elektron auf Orbit 2 -->
+  <circle cx="100" cy="160" r="4" fill="#fff"/>
+  
+  <!-- Orbit 3: Kreisbahn -->
+  <circle cx="100" cy="100" r="45" fill="none" stroke="#fff" stroke-width="2"/>
+  <!-- Elektron auf Orbit 3 -->
+  <circle cx="145" cy="100" r="4" fill="#fff"/>
+  
+  <!-- Zusätzlicher Orbit mit gestrichelter Linie -->
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#fff" stroke-dasharray="5,5" stroke-width="1"/>
+  <!-- Extra Elektron auf dem zusätzlichen Orbit -->
+  <circle cx="100" cy="25" r="3" fill="#fff"/>
+</svg>
